@@ -1,4 +1,4 @@
-#expection report view
+--expection report view
 
 USE [OpsTech_DB]
 GO
@@ -248,5 +248,6 @@ left join oilAllocation on RootFloc.RootFloc = oilAllocation.RootFloc
 --where    multiStop.exception is not null
 ;
 GO
+
 
 
